@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Jessica White",
+    "email": "jessica.white44@yahoo.com",
+    "check": false
+  },
+  {
+    "name": "Dr. Rita Pacocha",
+    "email": "pachocarita@gmail.com",
+    "check": true
+  },
+  {
+    "name": "Wilfred Dickens III",
+    "email": "dickens.wilfred@hotmail.com",
+    "check": true
+  },
+  {
+    "name": "Rodney White",
+    "email": "rodneywhite1984@gmail.com",
+    "check": false
+  },
+  {
+    "name": "Sherman Swaniawski",
+    "email": "sherman@swaniawski&co.com",
+    "check": true
+  },
+  {
+    "name": "Sally Russel",
+    "email": "sallyrusselherself@yahoo.com",
+    "check": false
+  }
+]

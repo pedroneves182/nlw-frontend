@@ -1,0 +1,87 @@
+[
+  {
+    "date": "17",
+    "dayOfWeek": "Sábado",
+    "activities": []
+  },
+  {
+    "date": "18",
+    "dayOfWeek": "Domingo",
+    "activities": [
+      {
+        "name": "Corrida de Kart",
+        "time": "14:00",
+        "complete": true
+      }
+    ]
+  },
+  {
+    "date": "19",
+    "dayOfWeek": "Segunda-feira",
+    "activities": [
+      {
+        "name": "Academia em grupo",
+        "time": "08:00",
+        "complete": true
+      },
+      {
+        "name": "Almoço",
+        "time": "12:00",
+        "complete": true
+      },
+      {
+        "name": "Gaming session",
+        "time": "18:00",
+        "complete": true
+      },
+      {
+        "name": "Jantar",
+        "time": "21:00",
+        "complete": true
+      }
+    ]
+  },
+  {
+    "date": "20",
+    "dayOfWeek": "Terça-feira",
+    "activities": [
+      {
+        "name": "Academia em grupo",
+        "time": "08:00",
+        "complete": true
+      },
+      {
+        "name": "Almoço",
+        "time": "12:00",
+        "complete": false
+      },
+      {
+        "name": "Jantar",
+        "time": "21:00",
+        "complete": false
+      }
+    ]
+  },
+  {
+    "date": "21",
+    "dayOfWeek": "Quarta-feira",
+    "activities": [
+      {
+        "name": "Churrasco",
+        "time": "21:00",
+        "complete": false
+      }
+    ]
+  },
+  {
+    "date": "22",
+    "dayOfWeek": "Quinta-feira",
+    "activities": [
+      {
+        "name": "Academia em grupo",
+        "time": "08:00",
+        "complete": false
+      }
+    ]
+  }
+]
