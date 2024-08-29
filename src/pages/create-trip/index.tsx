@@ -1,4 +1,3 @@
-import { ArrowRight, Calendar, MapPin, Settings2, UserRoundPlus } from "lucide-react";
 import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import InviteGuestsModal from "./invite-guests-modal";
@@ -14,13 +13,15 @@ export function CreateTripPage() {
 
   function openGuestsInput() { setShowGuestsInput(true) }
   function closeGuestsInput() { setShowGuestsInput(false) }
-
+  
   function openGuestsModal() { setShowGuestsModal(true) }
   function closeGuestsModal() { setShowGuestsModal(false) }
-
+  
   function openConfirmModal() { setShowConfirmModal(true) }
   function closeConfirmModal() { setShowConfirmModal(false) }
-
+  
+  const navigate = useNavigate()
+  
   function addNewEmailToInvite(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const data = new FormData(event.currentTarget)
@@ -36,10 +37,10 @@ export function CreateTripPage() {
   function removeEmailFromInvites(emailToRemove: string) {
     setEmailsToInvite(emailsToInvite.filter(email => email !== emailToRemove))
   }
+  
 
   function createTrip(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
-    const navigate = useNavigate()
     navigate('/trips/123')
   }
 
